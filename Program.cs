@@ -16,22 +16,22 @@ string [] array = str.Split(", ")
 // }
 
 
-string[] FindShortString (string[] array)
-{
-    int index = 0;
-    string[] newArray = new string[array.Length];
-    for(int i = 0; i < array.Length; i++)
-    {
-        if(array[i].Length <= 3)
-        {
-            index++;
-            newArray[index] = array[i];
-        }
-    }
-    return newArray;
-}
+// string[] FindShortString (string[] array)
+// {
+//     int index = 0;
+//     string[] newArray = new string[array.Length];
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         if(array[i].Length <= 3)
+//         {
+//             index++;
+//             newArray[index] = array[i];
+//         }
+//     }
+//     return newArray;
+// }
 
 // ShowArray(array);
 
-string[] myArray = FindShortString(array);
+// string[] myArray = FindShortString(array);
 // ShowArray(myArray);

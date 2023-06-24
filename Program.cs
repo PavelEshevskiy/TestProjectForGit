@@ -6,14 +6,14 @@ string [] array = str.Split(", ")
                      .ToArray();
 
 
-void ShowArray (string[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-    {
-        Console.Write (array[i] + " ");
-    }
-    Console.WriteLine();
-}
+// void ShowArray (string[] array)
+// {
+//     for(int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write (array[i] + " ");
+//     }
+//     Console.WriteLine();
+// }
 
 
 string[] FindShortString (string[] array)
@@ -31,7 +31,7 @@ string[] FindShortString (string[] array)
     return newArray;
 }
 
-ShowArray(array);
+// ShowArray(array);
 
 string[] myArray = FindShortString(array);
-ShowArray(myArray);
+// ShowArray(myArray);
